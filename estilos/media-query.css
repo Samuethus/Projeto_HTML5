@@ -3,7 +3,33 @@
 @media  screen and (min-width: 992px){
 
     section#login{
-        width: 990px;
+        width: 100vw;
+        height: 100vh;
     }
-    
+    section#login > div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+        background-position: center top;
+    }
+
+    section#login > div#formulario{
+        float: right;
+        width: 70%;
+        height: 94%;
+        
+    }
+    section#login > div#barra{
+        float: right;
+        width: 70%;
+        height: 1%;
+        
+    }
+    section#login > div#syngenta{
+        float: right;
+        width: 70%;
+        height: 5%;
+        
+    }
+
 }
