@@ -68,3 +68,11 @@ section#login > div#syngenta{
     background-position-x: center;
     height: 4%;
 }
+
+div#formulario > h1{
+    margin-bottom: 10px;
+}
+
+div#formulario > p{
+    margin-bottom: 10vw;
+}
