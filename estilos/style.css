@@ -38,6 +38,7 @@ section#login{
     border-radius: 20px;
     transition: width .3s , height .3s;
 
+
 }
 
 section#login > div#imagem{
@@ -75,18 +76,39 @@ div#formulario > h1{
 
 div#formulario > p{
     margin-bottom: 10vw;
+} 
+
+form > p{
+    margin-bottom: 10px;
+    color: white ;
 }
 
 form > div.campo{
     color: #5F7200;
-}
-
-form > p{
-    display: block;
-    color: white    ;
+    margin: 5px 0px;
 }
 
 form > a.botao{
     display: block;
     color: #5F7200;
+    
 }
+
+form > input[type=submit] {
+    display: block;
+    width: 240px;
+    height: 25px;
+    background-color: #5F7200;
+    color: white;
+    font-style: oblique;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    display: block;
+    background-color: #5f7200a1;
+
+
+}
+
