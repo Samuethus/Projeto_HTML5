@@ -48,18 +48,22 @@ section#login > div#imagem{
 }
 
 section#login > div#formulario{
+    display: block;
     background: white;
     background-size: cover;
     height: 275px;
+    padding: 10px;
 }
 
 section#login > div#barra{
+    display: block;
     background: #5F7200 no-repeat ;
     background-size: cover;
     height: 5px;
 }
 
 section#login > div#syngenta{
+    display: block;
     background: white url(../imagem/Syngenta_Logo.png) no-repeat;
     background-size: contain   ;
     background-position-x: center;
