@@ -82,6 +82,7 @@ form > div.campo{
 }
 
 form > p{
+    display: block;
     color: white    ;
 }
 
