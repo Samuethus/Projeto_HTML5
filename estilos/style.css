@@ -31,14 +31,11 @@ section#login{
     left: 50%;
     transform: translate(-50%,-50%);
     overflow: hidden ;
-
     background-color: white;
     height: 95vh;
     width: 95vw;
     border-radius: 20px;
     transition: width .3s , height .3s;
-
-
 }
 
 section#login > div#imagem{
@@ -86,9 +83,8 @@ form > p{
 form > div.campo{
     color: #5F7200;
     margin: 5px 0px;
-    width: 400px;
+    width: 300px;
     height: 25px;
-    
 }
 
 form > div.campo > input   {
@@ -98,7 +94,7 @@ form > div.campo > input   {
 
 form > a.botao{
     display: block;
-    width: 400px;
+    width: 300px;
     height: 30px;
     background-color: #5F7200;
     color: white;
@@ -107,8 +103,7 @@ form > a.botao{
     border-color: black;
     cursor: pointer;
     text-align: center;
-    transform: translateY(-8px);
-    
+    transform: translateY(-8px); 
 }
 
 form > a.botao:hover{
@@ -120,13 +115,12 @@ form > a.botao:hover{
 
 form > input[type=submit] {
     display: block;
-    width: 400px;
+    width: 300px;
     height: 30px;
     background-color: #5F7200;
     color: white;
     border-radius: 5px;
     cursor: pointer;
-
 }
 
 form > input[type=submit]:hover {
