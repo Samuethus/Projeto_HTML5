@@ -84,7 +84,7 @@ form > div.campo{
     color: #5F7200;
     margin: 20px 0px;
     width: 300px;
-    height: 30px;
+    height: px;
 }
 
 form > div.campo > input   {
@@ -94,7 +94,7 @@ form > div.campo > input   {
 
 form > a.botao{
     display: block;
-    width: 300px;
+    width: 360px;
     height: 30px;
     background-color: #5F7200;
     color: white;
@@ -115,7 +115,7 @@ form > a.botao:hover{
 
 form > input[type=submit] {
     display: block;
-    width: 300px;
+    width: 360px;
     height: 30px;
     background-color: #5F7200;
     color: white;
